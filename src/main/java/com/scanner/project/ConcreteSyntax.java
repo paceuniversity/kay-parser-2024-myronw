@@ -235,7 +235,7 @@ public class ConcreteSyntax {
 			b.op = new Operator(token.getValue());
 			token = input.nextToken();
 			b.term2 = term();
-			e = b;
+			//e = b;
 		}
 		return e;
 	}
